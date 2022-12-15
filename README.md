@@ -17,4 +17,9 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning java.
 - I like coding..
 
-![Visitor Count](https://profile-counter.glitch.me/mirsery/count.svg)
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/mirsery/count.svg" />
+</p>
+
+
