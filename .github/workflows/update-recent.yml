@@ -1,0 +1,35 @@
+name: 刷新最近更新
+
+on:
+  schedule:
+    - cron: "17 0 * * *" # 每天北京时间 08:17
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update_recent.py
+      - .github/workflows/update-recent.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-recent
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 scripts/update_recent.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: 有变化才提交
+        run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: 刷新最近更新"
+          git push

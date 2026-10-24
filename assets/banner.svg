@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Lysander · mirsery</title>
-  <desc id="desc">把想法写成工具，把重复交给自动化。后端开发、开发者工具、AI 工作流。</desc>
+  <desc id="desc">把想法写成工具，把重复交给自动化。后端开发、Apple 平台、开发者工具、AI 工作流。</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#20212e"/><stop offset="1" stop-color="#303047"/></linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#bd93f9" stroke-opacity=".055"/></pattern>
@@ -14,7 +14,7 @@
     <text x="78" y="62" font-size="12" fill="#d5bcff" letter-spacing="1.5">HELLO, WORLD.</text>
     <text x="46" y="153" font-size="70" font-weight="750" fill="#f8f8f2" letter-spacing="-3">Lysander<tspan fill="#bd93f9">.</tspan></text>
     <text x="49" y="194" font-size="18" fill="#c7c6d4">把想法写成工具，把重复交给自动化。</text>
-    <text x="49" y="260" font-size="14" fill="#a8a8bb">后端开发<tspan dx="22" fill="#bd93f9">/</tspan><tspan dx="22" fill="#a8a8bb">开发者工具</tspan><tspan dx="22" fill="#bd93f9">/</tspan><tspan dx="22" fill="#a8a8bb">AI 工作流</tspan></text>
+    <text x="49" y="260" font-size="14" fill="#a8a8bb">后端开发<tspan dx="22" fill="#bd93f9">/</tspan><tspan dx="22" fill="#a8a8bb">Apple 平台</tspan><tspan dx="22" fill="#bd93f9">/</tspan><tspan dx="22" fill="#a8a8bb">开发者工具</tspan><tspan dx="22" fill="#bd93f9">/</tspan><tspan dx="22" fill="#a8a8bb">AI 工作流</tspan></text>
     <text x="49" y="320" font-size="12" fill="#8c8d9f" letter-spacing="1">MIRSERY · SUZHOU, CHINA</text>
   </g>
   <rect x="766" y="51" width="458" height="245" rx="12" fill="#191a25" stroke="#494557"/>
