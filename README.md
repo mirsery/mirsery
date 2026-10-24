@@ -1,4 +1,7 @@
-![Lysander — 把想法写成工具，把重复交给自动化](./assets/banner.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img alt="Lysander — 把想法写成工具，把重复交给自动化" src="./assets/banner-light.svg">
+</picture>
 
 <p align="center">
   <a href="https://mirsery.github.io">个人博客</a> ·
