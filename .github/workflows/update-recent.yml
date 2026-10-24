@@ -1,35 +1,58 @@
-name: 刷新最近更新
+name: 刷新最近动态
+
+# 每天重新生成 README 里「最近动态」一节，有变化才提交。
+# PR 里只跑测试并预览改动，不提交。
+# 公开仓库连续 60 天没有提交时，GitHub 会自动停用定时任务，到 Actions 页面重新启用即可。
 
 on:
   schedule:
-    - cron: "17 0 * * *" # 每天北京时间 08:17
+    - cron: "17 0 * * *" # 北京时间每天 08:17
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - README.md
-      - scripts/update_recent.py
+      - scripts/**
+      - .github/workflows/update-recent.yml
+  pull_request:
+    paths:
+      - README.md
+      - scripts/**
       - .github/workflows/update-recent.yml
 
-permissions:
-  contents: write
-
 concurrency:
-  group: update-recent
+  group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v7
-      - run: python3 scripts/update_recent.py
+
+      - name: 单元测试
+        run: python3 -m unittest discover -s scripts -v
+
+      - name: 生成最近动态
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: 有变化才提交
+        run: python3 scripts/update_recent.py
+
+      - name: 预览改动
+        if: github.event_name == 'pull_request'
+        run: git --no-pager diff -- README.md
+
+      - name: 有变化就提交
+        if: github.event_name != 'pull_request'
         run: |
-          if git diff --quiet; then exit 0; fi
+          if git diff --quiet -- README.md; then
+            echo "最近动态没有变化"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: 刷新最近更新"
+          git commit -m "chore: 刷新最近动态" -- README.md
+          git pull --rebase
           git push

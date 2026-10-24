@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lysander · mirsery</title>
+  <desc id="desc">把想法写成工具，把重复交给自动化。后端开发、Apple 平台、开发者工具、AI 工作流。</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
+    .cursor { animation: blink 1.1s steps(1, end) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBFAFF"/>
+      <stop offset="1" stop-color="#EEEAFB"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#644AC9" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#644AC9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#644AC9" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="360" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <circle cx="1000" cy="178" r="320" fill="url(#glow)"/>
+    <path d="M0 336H1280" stroke="#644AC9" stroke-opacity="0.14"/>
+  </g>
+
+  <g class="sans">
+    <rect x="48" y="44" width="160" height="30" rx="15" fill="#644AC9" fill-opacity="0.10"/>
+    <circle cx="66" cy="59" r="4.5" fill="#1F9D55"/>
+    <text x="80" y="64" font-size="13" fill="#644AC9" letter-spacing="1.5">HELLO, WORLD.</text>
+    <text x="45" y="158" font-size="78" font-weight="800" fill="#1F1F1F" letter-spacing="-2">Lysander<tspan fill="#644AC9">.</tspan></text>
+    <text x="49" y="210" font-size="25" fill="#38364A">把想法写成工具，把重复交给自动化。</text>
+    <text x="49" y="266" font-size="17" fill="#66647A">后端开发<tspan dx="18" fill="#644AC9">/</tspan><tspan dx="18">Apple 平台</tspan><tspan dx="18" fill="#644AC9">/</tspan><tspan dx="18">开发者工具</tspan><tspan dx="18" fill="#644AC9">/</tspan><tspan dx="18">AI 工作流</tspan></text>
+    <text x="49" y="318" font-size="12" fill="#8A889C" letter-spacing="1.5">MIRSERY · SUZHOU, CHINA</text>
+  </g>
+
+  <rect x="772" y="52" width="456" height="252" rx="12" fill="#FFFFFF" stroke="#D9D4EE"/>
+  <path d="M773 90H1227" stroke="#ECE8F7"/>
+  <circle cx="794" cy="71" r="5" fill="#FF5F57"/>
+  <circle cx="812" cy="71" r="5" fill="#FEBC2E"/>
+  <circle cx="830" cy="71" r="5" fill="#28C840"/>
+  <g class="mono">
+    <text x="1000" y="76" font-size="12" fill="#8A889C" text-anchor="middle">~/mirsery</text>
+    <text x="796" y="131" fill="#14710A">❯</text>
+    <text x="816" y="131" fill="#1F1F1F">cat interests.yml</text>
+    <text x="796" y="172" fill="#644AC9">build:</text>
+    <text x="896" y="172" fill="#4A4860">useful developer tools</text>
+    <text x="796" y="203" fill="#036A96">connect:</text>
+    <text x="896" y="203" fill="#4A4860">people, agents &amp; workflows</text>
+    <text x="796" y="234" fill="#A34D14">automate:</text>
+    <text x="896" y="234" fill="#4A4860">the repetitive parts</text>
+    <text x="796" y="276" fill="#14710A">❯</text>
+    <rect class="cursor" x="816" y="262" width="9" height="18" rx="1" fill="#644AC9"/>
+  </g>
+</svg>

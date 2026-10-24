@@ -1,4 +1,7 @@
-![Lysander — 把想法写成工具，把重复交给自动化](./assets/banner.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img alt="Lysander — 把想法写成工具，把重复交给自动化" src="./assets/banner-light.svg">
+</picture>
 
 <p align="center">
   <a href="https://mirsery.github.io">个人博客</a> ·
@@ -30,7 +33,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mirsery/lark-coding-agent-bridge">飞书 × 编程智能体</a></h3>
-      <p>在飞书里直接使用本机的 Claude Code / Codex：流式卡片实时显示进度，每个会话独立续接，额度用完后自动续跑。</p>
+      <p>在飞书里直接使用本机的 Claude Code / Codex：流式卡片实时显示进度，每个会话独立续接，额度用完后自动续跑。基于 <a href="https://github.com/zarazhangrui/lark-coding-agent-bridge">zarazhangrui/lark-coding-agent-bridge</a> 深度定制。</p>
       <p><code>TypeScript</code> <code>飞书</code> <code>AI Agent</code></p>
     </td>
     <td width="50%" valign="top">
@@ -53,15 +56,18 @@
   </tr>
 </table>
 
-## 最近更新
+## 最近动态
 
+<!-- 这一节由 .github/workflows/update-recent.yml 每天自动生成，手改会被覆盖；规则见 scripts/update_recent.py -->
 <!-- recent:start -->
-- `2026-10-24` **[wristlab](https://github.com/mirsery/wristlab)** · Swift
-- `2026-10-24` **[GlossType](https://github.com/mirsery/GlossType)** · Swift
-- `2026-10-23` **[lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge)** · TypeScript
-- `2026-10-15` **[mirsery.github.io](https://github.com/mirsery/mirsery.github.io)** · SCSS
-- `2026-10-05` **[claude-dracula-theme](https://github.com/mirsery/claude-dracula-theme)**
+- `10-24` [GlossType](https://github.com/mirsery/GlossType) · 输入法进程、候选窗、苹果翻译、设置窗与构建入口
+- `10-23` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · /usage 改成卡片，汇总用指标块、成员用表格
+- `10-22` [wristlab](https://github.com/mirsery/wristlab) · Send an opt-in morning brief notification
+- `10-14` [博客](https://mirsery.github.io) · [转载笔记：Anthropic 重设计源码管理，AI 编码之后的工程瓶颈](https://mirsery.github.io/2026/10/14/git/anthropic-redesigning-source-control/)
+- `10-05` [claude-dracula-theme](https://github.com/mirsery/claude-dracula-theme) · Claude Code CLI 的 Dracula 自定义主题与 README
 <!-- recent:end -->
+
+<sub>每天自动更新：公开仓库最近的新功能，以及博客新文章。</sub>
 
 ## 技术与方向
 
@@ -71,6 +77,19 @@
 | Apple 平台 | `Swift` · `SwiftUI` · `HealthKit` · `InputMethodKit` |
 | 前端与桌面 | `TypeScript` · `Vue` · `Electron` |
 | AI 与工作流 | `Claude Code` · `Codex` · `飞书开放平台` |
+
+<details>
+<summary>更早的作品</summary>
+
+| 年份 | 项目 | 说明 |
+| :--- | :--- | :--- |
+| 2025 | [bilibili-calendar](https://github.com/mirsery/bilibili-calendar) | B 站追番订阅、双色球中奖订阅、周报收集和微信机器人 |
+| 2022 | [plate-dashboard](https://github.com/mirsery/plate-dashboard) | 智慧停车场大数据平台 |
+| 2021 | [easy-docker-registry](https://github.com/mirsery/easy-docker-registry) | 简易 Docker 私有仓库部署，带 Web UI |
+| 2020 | [shiro-archetype-with-springboot](https://github.com/mirsery/shiro-archetype-with-springboot) | Spring Boot 整合 Shiro 的项目模板 |
+| 2016–2018 | [push-server](https://github.com/mirsery/push-server) · [push-client-sdk](https://github.com/mirsery/push-client-sdk) · [wesocket-demo](https://github.com/mirsery/wesocket-demo) · [socks-proxy](https://github.com/mirsery/socks-proxy) | 推送服务端与客户端 SDK，基于 Netty 的 WebSocket、SOCKS 代理示例 |
+
+</details>
 
 ---
 
