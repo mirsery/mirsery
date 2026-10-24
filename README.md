@@ -33,7 +33,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mirsery/lark-coding-agent-bridge">飞书 × 编程智能体</a></h3>
-      <p>在飞书里直接使用本机的 Claude Code / Codex：流式卡片实时显示进度，每个会话独立续接，额度用完后自动续跑。</p>
+      <p>在飞书里直接使用本机的 Claude Code / Codex：流式卡片实时显示进度，每个会话独立续接，额度用完后自动续跑。基于 <a href="https://github.com/zarazhangrui/lark-coding-agent-bridge">zarazhangrui/lark-coding-agent-bridge</a> 深度定制。</p>
       <p><code>TypeScript</code> <code>飞书</code> <code>AI Agent</code></p>
     </td>
     <td width="50%" valign="top">
@@ -77,6 +77,19 @@
 | Apple 平台 | `Swift` · `SwiftUI` · `HealthKit` · `InputMethodKit` |
 | 前端与桌面 | `TypeScript` · `Vue` · `Electron` |
 | AI 与工作流 | `Claude Code` · `Codex` · `飞书开放平台` |
+
+<details>
+<summary>更早的作品</summary>
+
+| 年份 | 项目 | 说明 |
+| :--- | :--- | :--- |
+| 2025 | [bilibili-calendar](https://github.com/mirsery/bilibili-calendar) | B 站追番订阅、双色球中奖订阅、周报收集和微信机器人 |
+| 2022 | [plate-dashboard](https://github.com/mirsery/plate-dashboard) | 智慧停车场大数据平台 |
+| 2021 | [easy-docker-registry](https://github.com/mirsery/easy-docker-registry) | 简易 Docker 私有仓库部署，带 Web UI |
+| 2020 | [shiro-archetype-with-springboot](https://github.com/mirsery/shiro-archetype-with-springboot) | Spring Boot 整合 Shiro 的项目模板 |
+| 2016–2018 | [push-server](https://github.com/mirsery/push-server) · [push-client-sdk](https://github.com/mirsery/push-client-sdk) · [wesocket-demo](https://github.com/mirsery/wesocket-demo) · [socks-proxy](https://github.com/mirsery/socks-proxy) | 推送服务端与客户端 SDK，基于 Netty 的 WebSocket、SOCKS 代理示例 |
+
+</details>
 
 ---
 
