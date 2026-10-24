@@ -56,15 +56,18 @@
   </tr>
 </table>
 
-## 最近更新
+## 最近动态
 
+<!-- 这一节由 .github/workflows/update-recent.yml 每天自动生成，手改会被覆盖；规则见 scripts/update_recent.py -->
 <!-- recent:start -->
-- `2026-10-24` **[wristlab](https://github.com/mirsery/wristlab)** · Swift
-- `2026-10-24` **[GlossType](https://github.com/mirsery/GlossType)** · Swift
-- `2026-10-23` **[lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge)** · TypeScript
-- `2026-10-15` **[mirsery.github.io](https://github.com/mirsery/mirsery.github.io)** · SCSS
-- `2026-10-05` **[claude-dracula-theme](https://github.com/mirsery/claude-dracula-theme)**
+- `10-24` [GlossType](https://github.com/mirsery/GlossType) · 输入法进程、候选窗、苹果翻译、设置窗与构建入口
+- `10-23` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · /usage 改成卡片，汇总用指标块、成员用表格
+- `10-22` [wristlab](https://github.com/mirsery/wristlab) · Send an opt-in morning brief notification
+- `10-14` [博客](https://mirsery.github.io) · [转载笔记：Anthropic 重设计源码管理，AI 编码之后的工程瓶颈](https://mirsery.github.io/2026/10/14/git/anthropic-redesigning-source-control/)
+- `10-05` [claude-dracula-theme](https://github.com/mirsery/claude-dracula-theme) · Claude Code CLI 的 Dracula 自定义主题与 README
 <!-- recent:end -->
+
+<sub>每天自动更新：公开仓库最近的新功能，以及博客新文章。</sub>
 
 ## 技术与方向
 
