@@ -60,7 +60,7 @@
 
 <!-- 这一节由 .github/workflows/update-recent.yml 每天自动生成，手改会被覆盖；规则见 scripts/update_recent.py -->
 <!-- recent:start -->
-- `10-27` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 显示当前对话人
+- `10-31` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 自动切档，agent 用 \[\[EFFORT: 档位\]\] 给同一会话的下一轮定档
 - `10-24` [GlossType](https://github.com/mirsery/GlossType) · 输入法进程、候选窗、苹果翻译、设置窗与构建入口
 - `10-22` [wristlab](https://github.com/mirsery/wristlab) · Send an opt-in morning brief notification
 - `10-14` [博客](https://mirsery.github.io) · [转载笔记：Anthropic 重设计源码管理，AI 编码之后的工程瓶颈](https://mirsery.github.io/2026/10/14/git/anthropic-redesigning-source-control/)
