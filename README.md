@@ -60,8 +60,8 @@
 
 <!-- 这一节由 .github/workflows/update-recent.yml 每天自动生成，手改会被覆盖；规则见 scripts/update_recent.py -->
 <!-- recent:start -->
-- `11-25` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 接入 Antigravity CLI 的 ACP 私聊
-- `10-24` [GlossType](https://github.com/mirsery/GlossType) · 输入法进程、候选窗、苹果翻译、设置窗与构建入口
+- `11-25` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 交接备用 agent 的会话上下文
+- `11-25` [GlossType](https://github.com/mirsery/GlossType) · Make lm-tatoeba 一条命令用 Tatoeba 例句生成 4 阶语言模型
 - `10-22` [wristlab](https://github.com/mirsery/wristlab) · Send an opt-in morning brief notification
 - `10-14` [博客](https://mirsery.github.io) · [转载笔记：Anthropic 重设计源码管理，AI 编码之后的工程瓶颈](https://mirsery.github.io/2026/10/14/git/anthropic-redesigning-source-control/)
 - `10-05` [claude-dracula-theme](https://github.com/mirsery/claude-dracula-theme) · Claude Code CLI 的 Dracula 自定义主题与 README
