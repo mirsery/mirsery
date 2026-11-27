@@ -60,7 +60,7 @@
 
 <!-- 这一节由 .github/workflows/update-recent.yml 每天自动生成，手改会被覆盖；规则见 scripts/update_recent.py -->
 <!-- recent:start -->
-- `11-25` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 交接备用 agent 的会话上下文
+- `11-26` [lark-coding-agent-bridge](https://github.com/mirsery/lark-coding-agent-bridge) · 技能卡片表单放行 \*\_text 自由文本字段（补充分析输入框）
 - `11-25` [GlossType](https://github.com/mirsery/GlossType) · Make lm-tatoeba 一条命令用 Tatoeba 例句生成 4 阶语言模型
 - `10-22` [wristlab](https://github.com/mirsery/wristlab) · Send an opt-in morning brief notification
 - `10-14` [博客](https://mirsery.github.io) · [转载笔记：Anthropic 重设计源码管理，AI 编码之后的工程瓶颈](https://mirsery.github.io/2026/10/14/git/anthropic-redesigning-source-control/)
